@@ -1,12 +1,13 @@
+import css from "./ContactList.module.css";
 import Contact from "../Contact/Contact";
 
-export default function ContactList({ contacts, onContactDelate }) {
+export default function ContactList({ contacts }) {
   return (
     <>
-      <ul>
+      <ul className={css.list}>
         {contacts.map((contact) => (
-          <li key={contact.id}>
-            <Contact contact={contact} onContactDelate={onContactDelate} />
+          <li className={css.listElem} key={contact.id}>
+            <Contact contact={contact} />
           </li>
         ))}
       </ul>

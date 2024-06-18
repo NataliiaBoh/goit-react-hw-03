@@ -1,0 +1,37 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 350px;
+  max-height: 80px;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact > p {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
