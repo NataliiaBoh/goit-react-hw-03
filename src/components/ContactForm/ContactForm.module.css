@@ -1,0 +1,35 @@
+.form {
+  margin-bottom: 30px;
+  min-width: 320px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form > input {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 18px;
+}
+
+.error {
+  color: orangered;
+  font-weight: 600px;
+}
+
+.button {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+}
